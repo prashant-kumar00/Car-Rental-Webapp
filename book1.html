@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GoDrive</title>
+    <style>
+
+      h1{
+        font-family:"Lucida Console", Courier, monospace;
+      }
+
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#000000db;
+      }
+
+      li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover{
+        background-color: #111;
+      }
+
+      li{
+        float:left;
+      }
+      button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 20px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover{
+        background-color:black;
+      }
+    </style>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( "#datepicker" ).datepicker({minDate:0, maxDate:+25});
+      } );
+      </script>
+  </head>
+  <body>
+    <ul>
+    <li><a href="homepage.html">Home</a> </li>
+    <li><a href="#Offers">Offers</a> </li>
+    <li><a href="#About Us">About Us</a> </li>
+    <li><a href="#Contact">Contact</a> </li>
+  </ul>
+    <center>
+    <h1> TELL US DROPOFF DATE AND TIME</h1>
+    <p>Date: <input type="text" id="datepicker"></p><br>
+    <button type="button" name="button" onclick="location.href='vehicleList.html'">Submit</button></center>
+  </body>
+</html>

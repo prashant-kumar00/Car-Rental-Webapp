@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>GoDrive</title>
+    <style>
+
+      h1{
+        font-family:"Lucida Console", Courier, monospace;
+      }
+
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#000000db;
+      }
+
+      li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover{
+        background-color: #111;
+      }
+
+      li{
+        float:left;
+      }
+      button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 20px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover{
+        background-color:black;
+      }
+    </style>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( "#datepicker" ).datepicker({minDate:0, maxDate:+25});
+      } );
+      </script>
+  </head>
+  <body>
+    <div class="div1">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="">goDrive</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Offers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <center>
+    <h1> TELL US PICKUP DATE AND TIME</h1>
+    <p><h2>Date: <input type="text" id="datepicker"><h2></p><br>
+    <button type="button" name="button" onclick="location.href='book1.html'">Submit</button></center>
+  </body>
+</html>

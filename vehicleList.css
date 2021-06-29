@@ -1,0 +1,103 @@
+
+      img{
+        margin-left: 40px;
+      }
+      h1{
+        font-family:"Lucida Console", Courier, monospace;
+      }
+
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#000000db;
+      }
+
+      li a{
+        display: block;
+        font-size: 17px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover{
+        background-color: #111;
+        font-size: 22px;
+      }
+
+      li{
+        float:left;
+      }
+      button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 20px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover{
+        background-color:black;
+        font-size:25px;
+      }
+
+            .swift1{
+                display: block;
+                border-style: groove;
+                padding: 40px 15px;
+                margin-left: 10px;
+            }
+            .swift2{
+              display: block;
+              border-style: groove;
+              padding: 40px 15px;
+                margin-left: 10px;
+            }
+           .swift3{
+             display: block;
+             border-style: groove;
+            padding: 40px 15px;
+              margin-left: 10px;
+              }
+           .swift4{
+             display: block;
+             border-style: groove;
+            padding: 40px 15px;
+              margin-left: 10px;
+                }
+            .swift5{
+              display: block;
+              border-style: groove;
+            padding: 40px 15px;
+              margin-left: 10px;
+            }
+
+      .swift1 img:hover{
+          transform:scale(1.1);
+          transition: 0.8s;
+      }
+      .swift2:hover{
+          transform:scale(1.1);
+          transition: 0.8s;
+      }
+     .swift3:hover{
+            transform:scale(1.1);
+            transition: 0.8s;
+        }
+     .swift4:hover{
+              transform:scale(1.1);
+              transition: 0.8s;
+          }
+      .swift5:hover{
+                transform:scale(1.1);
+                transition: 0.8s;
+            }

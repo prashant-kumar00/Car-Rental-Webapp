@@ -1,0 +1,141 @@
+
+body{
+  background-color:#fff7edd6;
+  position: relative;
+}
+
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+
+
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align:right;
+    font-size: 3rem;
+    color: #EEEEEE;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+li a:hover{
+  font-size: 21px;
+}
+
+li{
+  float:left;
+}
+button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover{
+  background-color:black;
+  font-size: 25px;
+}
+
+.benefits{
+  text-align: center;
+}
+
+
+#footer{
+ margin: auto;
+ padding: 3% 15%;
+ text-align: center;
+ background-color: #C6EBC9;
+}
+
+#Welcome{
+  margin-top:50px;
+  font-style: bold;
+}
+
+.carpic{
+  margin-left:300px;
+}
+
+.container{
+  position: relative;
+  width:50%;
+  margin:auto auto auto 14%;
+}
+
+.container img{
+  width:150%;
+  height:auto;
+  margin: 0% 4% 0% 0%;
+  padding: auto;
+}
+.button-book{
+  position: absolute;
+  top: 40%;
+  left: 70%;
+}
+
+.top-section{
+  margin-bottom: 10%;
+}
+
+.h2head{
+  padding: 2% 5%;
+  font-style: normal;
+}
+
+.headh3{
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+
+.headh2{
+  font-weight:300;
+}
+
+#myCars{
+  padding: 3% 15%;
+}
+
+.d-block{
+  height=50%;
+  width:auto;
+}
+
+.bg-img{
+  opacity: 100%;
+}
+
+p{
+  font-family: Montserrat;
+  text-align: right;
+}
