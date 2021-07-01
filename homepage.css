@@ -139,3 +139,12 @@ p{
   font-family: Montserrat;
   text-align: right;
 }
+
+.footer-wrapper{
+  font-family: Montserrat;
+  padding: 5% 3%;
+}
+
+.footer-wrapper h4{
+  text-align: center;
+}
