@@ -3,7 +3,7 @@
         margin-left: 40px;
       }
       h1{
-        font-family:"Lucida Console", Courier, monospace;
+          font-family: 'Montserrat', sans-serif;
       }
 
       ul{
@@ -11,7 +11,6 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color:#000000db;
       }
 
       li a{
@@ -81,7 +80,7 @@
               margin-left: 10px;
             }
 
-      .swift1 img:hover{
+      .swift1:hover{
           transform:scale(1.1);
           transition: 0.8s;
       }
@@ -101,3 +100,6 @@
                 transform:scale(1.1);
                 transition: 0.8s;
             }
+      .carlist{
+        padding: 3% 7%;
+      }

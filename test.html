@@ -2,8 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>GoDrive</title>
-    <link rel="stylesheet" href="vehicleList.css">
     <script src="js/jquery-1.7.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
@@ -16,7 +14,12 @@
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({minDate:0, maxDate:+25});
+  } );
+  </script>
+    <title>test File</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
@@ -36,38 +39,17 @@
         </li>
       </ul>
     </nav>
-    <br><br>
-    <h1 align="center"> SELECT YOUR CAR</h1>
-    <div class="carlist">
-    <div class="swift1">
-        <img id="pic1" src="Assets/car1.jpg" alt="car1" align="left"><br>
-        <h6> Maruti Suzuki Swift AT</h6>
-        <p>₹5000 <p>
-    </div>
-    <br><br>
-    <div class="swift2">
-        <img id="pic2" src="Assets/car2.jpg" alt="car2" align="left"><br>
-        <h6>Tata Tiago</h6>
-        <p>₹ 5000</p>
-    </div><br><br>
-    <div class="swift3">
-        <img id="pic3" src="Assets/car3.jpg" alt="car3" align="left"><br>
-        <h6>Maruti Breeza</h6>
-        <p>₹ 5000</p>
-    </div><br><br>
-    <div class="swift4">
-        <img id="pic4" src="Assets/car4.jpg" alt="car4" align="left"><br>
-        <h6>Volkswagen Polo</h6>
-        <p>₹ 5000</p>
-    </div><br><br>
-    <div class="swift5">
-        <img id="pic" src="Assets/car5.jpg" alt="car5" align="left"><br>
-        <h6>Maruti Swift</h6>
-        <p>₹ 5000</p>
-    </div><br><br>
-  </div>
+
+
+
+    <p> © Copyright 2021 goDrive India Private Ltd. All rights reserved.</p>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <h1> TELL US PICKUP DATE AND TIME</h1>
+   <p><h2>Date: <input type="text" id="datepicker"><h2></p><br>
+   <button type="button" name="button" onclick="location.href='book1.html'">Submit</button></center>
+
   </body>
 </html>
